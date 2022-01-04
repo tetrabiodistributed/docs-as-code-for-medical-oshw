@@ -1,0 +1,5 @@
+# build script generated directory
+public/
+
+# github action keys
+gh-pages*
