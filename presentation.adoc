@@ -1,0 +1,73 @@
+= Docs-as-Code for Open-Source Medical Hardware & PPE's
+
+by Sean Marquez
+
+== Context
+
+Circa March 2020 - Present
+
+Note:
+Case spikes throughout the COVID pandemic have caused shortages in medical supplychain
+
+== Call to Action
+
+Form an engineering thinktank
+
+Note:
+To build open-source medical hardware!
+
+== Roadblocks
+
+- Regulatory environment
+- Available toolchain
+
+Note:
+Not to mention, working with distributed team members, over 4 time zones, across 2 countries
+
+[.columns]
+== Regulatory Environment
+
+[.column]
+--
+image::https://www.complianceiq.com/Images/Training/Details/Detailsf44148ae-8f33-484c-b689-dc1771b07ccf131969854218405349.jpg[21 CFR 820, 200, 200]
+FDA Code of Federal Regulations Title 21 Part 820 - Quality System Regulation for Medical Devices
+--
+[.column]
+--
+image::https://mdpharmacourses.com/wp-content/uploads/2016/06/ISO-13485-2016-1.png[ISO 13485:2016, 200, 200]
+Medical Devices - A Practical Guide - Requirements for Regulatory Purposes
+--
+
+== What is open-Source Hardware (OSHW)
+
+OSHW Definition (source: OSHWA):
+
+- OSHW s/b like OSSW
+- Tools used to develop OSHW should also be open-source
+
+== Realization
+
+Tools for documenting open-source hardware are virtually non-existent
+
+== Write The Docs
+
+A community for technical writers & documentarians (to the rescue!)
+
+== Docs-as-Code
+
+The philosophy that documentation should be maintained using the same tools & approach as code
+
+== Advantages to Docs-as-Code
+
+- Works with distributed version control systems (s.a., git)
+- Allows for parallel development; documenting an in-development "feature" (using branches)
+- Reviewing documentation is like a code review
+
+Note:
+- satisfies traceability requirements
+- GH code reviews for documentation satisfies Q/A
+
+== How to adopt a Docs-as-Code approach
+
+Language, Toolchain, Methodology
+
