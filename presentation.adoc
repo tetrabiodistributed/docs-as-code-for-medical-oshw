@@ -66,6 +66,7 @@ The philosophy that documentation should be maintained using the same tools & ap
 Note:
 - satisfies traceability requirements
 - GH code reviews for documentation satisfies Q/A
+- "Given enough eyeballs, all bugs are shallow" - Linus' Law
 
 == How to adopt a Docs-as-Code approach
 
