@@ -106,6 +106,10 @@ Note:
 - Contributing guidelines (s.a., style guide)
 - Documentation review process
 
+== Examples
+
+<PAPRa docs screenshot>
+
 == In-Development
 
 Adopting a framework for OSHW,
