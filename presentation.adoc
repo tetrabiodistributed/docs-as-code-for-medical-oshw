@@ -106,5 +106,15 @@ Note:
 - Contributing guidelines (s.a., style guide)
 - Documentation review process
 
-== Examples
+== In-Development
 
+Adopting a framework for OSHW,
+untethered from vendor lock-in or content management systems (CMS),
+that allows for the generation of
+
+- Bill of Materials (BOM)
+- Purchase Orders (PO)
+- Assembly instructions
+- Design Documentation
+
+s.a., the Distributed OSHW Framework (DOF)
