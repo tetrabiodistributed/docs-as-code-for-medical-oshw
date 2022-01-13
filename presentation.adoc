@@ -18,6 +18,7 @@ To build open-source medical hardware!
 
 == Roadblocks
 
+[%step]
 - Regulatory environment
 - Available toolchain
 
@@ -42,6 +43,7 @@ Medical Devices - A Practical Guide - Requirements for Regulatory Purposes
 
 OSHW Definition (source: OSHWA):
 
+[%step]
 - OSHW s/b like OSSW
 - Tools used to develop OSHW should also be open-source
 
@@ -59,6 +61,7 @@ The philosophy that documentation should be maintained using the same tools & ap
 
 == Advantages to Docs-as-Code
 
+[%step]
 - Works with distributed version control systems (s.a., git)
 - Allows for parallel development; documenting an in-development "feature" (using branches)
 - Reviewing documentation is like a code review
