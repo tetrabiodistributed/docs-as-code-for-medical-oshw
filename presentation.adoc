@@ -4,6 +4,7 @@ by Sean Marquez
 
 == Context
 
+[%step]
 Circa March 2020 - Present
 
 Note:
@@ -11,6 +12,7 @@ Case spikes throughout the COVID pandemic have caused shortages in medical suppl
 
 == Call to Action
 
+[%step]
 Form an engineering thinktank
 
 Note:
@@ -20,7 +22,7 @@ To build open-source medical hardware!
 
 [%step]
 - Regulatory environment
-- Available toolchain
+- How to build open-source hardware (OSHW)
 
 Note:
 Not to mention, working with distributed team members, over 4 time zones, across 2 countries
@@ -39,32 +41,36 @@ image::https://mdpharmacourses.com/wp-content/uploads/2016/06/ISO-13485-2016-1.p
 Medical Devices - A Practical Guide - Requirements for Regulatory Purposes
 --
 
-== What is open-Source Hardware (OSHW)
+== How-to build Open-Source Hardware (OSHW)
 
 OSHW Definition (source: OSHWA):
-
 [%step]
-- OSHW s/b like OSSW
-- Tools used to develop OSHW should also be open-source
+- OSHW s/b like OSSW;
+  license & design should allow for anyone to make, modify, and/or redistribute the hardware
+- Documentation & design tools themselves should be accessible and open-source
 
 == Realization
 
+[%step]
 Tools for documenting open-source hardware are virtually non-existent
 
-== Write The Docs
+== Meet _Write The Docs_
 
-A community for technical writers & documentarians (to the rescue!)
+[%step]
+_A community for technical writers & documentarians_
 
 == Docs-as-Code
 
-The philosophy that documentation should be maintained using the same tools & approach as code
+[%step]
+_The philosophy that documentation should be maintained using the same tools & approach as code_
 
 == Advantages to Docs-as-Code
 
 [%step]
 - Works with distributed version control systems (s.a., git)
-- Allows for parallel development; documenting an in-development "feature" (using branches)
+- Allows for parallel development
 - Reviewing documentation is like a code review
+- Documentation itself can be open-sourced, allowing anyone to contribute
 
 Note:
 - satisfies traceability requirements
@@ -73,5 +79,32 @@ Note:
 
 == How to adopt a Docs-as-Code approach
 
-Language, Toolchain, Methodology
+[%step]
+- Language
+- Toolchain
+- Methodology
+
+== Language
+
+[%step]
+- Markup Language
+- Template Language
+- Modeling Language
+
+== Toolchain
+
+[%step]
+- Text Editor
+- Version Control System
+- Static Site Generator / Rendering Engine
+- Automation Pipeline
+
+== Methodology
+
+[%step]
+- Workflow
+- Contributing guidelines (s.a., style guide)
+- Documentation review process
+
+== Examples
 
