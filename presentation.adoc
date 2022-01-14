@@ -39,15 +39,20 @@ Not to mention, working with distributed team members, over 4 time zones, across
 [.column]
 --
 image::https://www.complianceiq.com/Images/Training/Details/Detailsf44148ae-8f33-484c-b689-dc1771b07ccf131969854218405349.jpg[21 CFR 820, 200, 200]
-FDA Code of Federal Regulations Title 21 Part 820 - Quality System Regulation for Medical Devices
+ FDA Code of Federal Regulations
+ Title 21 Part 820 -
+ Quality System Regulation
+ for Medical Devices
 --
 [.column]
 --
 image::https://mdpharmacourses.com/wp-content/uploads/2016/06/ISO-13485-2016-1.png[ISO 13485:2016, 200, 200]
-Medical Devices - A Practical Guide - Requirements for Regulatory Purposes
+ Medical Devices -
+ A Practical Guide -
+ Requirements for Regulatory Purposes
 --
 
-== 21 CFR Part 820 subparts
+=== 21 CFR Part 820 subparts
 
 [%step]
 - Subpart B—Quality System Requirements
@@ -64,6 +69,10 @@ Medical Devices - A Practical Guide - Requirements for Regulatory Purposes
 - Subpart M—Records
 - Subpart N—Servicing
 - Subpart O—Statistical Techniques
+
+=== TL;DR
+
+"Manufacturers of medical devices shall ensure that finished devices will be safe and effective."
 
 == How-to build Open-Source Hardware (OSHW)
 
