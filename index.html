@@ -394,14 +394,11 @@ link.type = 'text/css';
 link.href = window.location.search.match( /print-pdf/gi ) ? "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/print/pdf.css" : "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/print/paper.css";
 document.getElementsByTagName( 'head' )[0].appendChild( link );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Docs-as-Code for Open-Source Medical Hardware &amp; PPE&#8217;s</h1><div class="preamble"><div class="paragraph"><p>by Sean Marquez</p></div></div></section>
 <section id="_context"><h2>Context</h2><div class="slide-content"><div class="paragraph fragment"><p>Circa March 2020 - Present</p></div>
-<div class="paragraph"><p>Note:
-Case spikes throughout the COVID pandemic have caused shortages in medical supplychain</p></div></div></section>
+<aside class="notes"><div class="paragraph"><p>Case spikes throughout the COVID pandemic have caused shortages in medical supplychain</p></div></aside></div></section>
 <section id="_call_to_action"><h2>Call to Action</h2><div class="slide-content"><div class="paragraph fragment"><p>Form an engineering thinktank</p></div>
-<div class="paragraph"><p>Note:
-To build open-source medical hardware!</p></div></div></section>
+<aside class="notes"><div class="paragraph"><p>To build open-source medical hardware!</p></div></aside></div></section>
 <section id="_roadblocks"><h2>Roadblocks</h2><div class="slide-content"><div class="ulist"><ul><li class="fragment"><p>Regulatory environment</p></li><li class="fragment"><p>How to build open-source hardware (OSHW)</p></li></ul></div>
-<div class="paragraph"><p>Note:
-Not to mention, working with distributed team members, over 4 time zones, across 2 countries</p></div></div></section>
+<aside class="notes"><div class="paragraph"><p>Not to mention, working with distributed team members, over 4 time zones, across 2 countries</p></div></aside></div></section>
 <section id="_regulatory_environment" class="columns"><h2>Regulatory Environment</h2><div class="slide-content"><div class="openblock column"><div class="content"><div class="imageblock"><img src="https://www.complianceiq.com/Images/Training/Details/Detailsf44148ae-8f33-484c-b689-dc1771b07ccf131969854218405349.jpg" alt="21 CFR 820" width="200" height="200"></div>
 <div class="paragraph"><p>FDA Code of Federal Regulations Title 21 Part 820 - Quality System Regulation for Medical Devices</p></div></div></div>
 <div class="openblock column"><div class="content"><div class="imageblock"><img src="https://mdpharmacourses.com/wp-content/uploads/2016/06/ISO-13485-2016-1.png" alt="ISO 13485:2016" width="200" height="200"></div>
@@ -413,10 +410,7 @@ license &amp; design should allow for anyone to make, modify, and/or redistribut
 <section id="_meet_write_the_docs"><h2>Meet <em>Write The Docs</em></h2><div class="slide-content"><div class="paragraph fragment"><p><em>A community for technical writers &amp; documentarians</em></p></div></div></section>
 <section id="_docs_as_code"><h2>Docs-as-Code</h2><div class="slide-content"><div class="paragraph fragment"><p><em>The philosophy that documentation should be maintained using the same tools &amp; approach as code</em></p></div></div></section>
 <section id="_advantages_to_docs_as_code"><h2>Advantages to Docs-as-Code</h2><div class="slide-content"><div class="ulist"><ul><li class="fragment"><p>Works with distributed version control systems (s.a., git)</p></li><li class="fragment"><p>Allows for parallel development</p></li><li class="fragment"><p>Reviewing documentation is like a code review</p></li><li class="fragment"><p>Documentation itself can be open-sourced, allowing anyone to contribute</p></li></ul></div>
-<div class="paragraph"><p>Note:
-- satisfies traceability requirements
-- GH code reviews for documentation satisfies Q/A
-- "Given enough eyeballs, all bugs are shallow" - Linus' Law</p></div></div></section>
+<aside class="notes"><div class="ulist"><ul><li><p>satisfies traceability requirements</p></li><li><p>GH code reviews for documentation satisfies Q/A</p></li><li><p>"Given enough eyeballs, all bugs are shallow" - Linus' Law</p></li></ul></div></aside></div></section>
 <section id="_how_to_adopt_a_docs_as_code_approach"><h2>How to adopt a Docs-as-Code approach</h2><div class="slide-content"><div class="ulist"><ul><li class="fragment"><p>Language</p></li><li class="fragment"><p>Toolchain</p></li><li class="fragment"><p>Methodology</p></li></ul></div></div></section>
 <section id="_language"><h2>Language</h2><div class="slide-content"><div class="ulist"><ul><li class="fragment"><p>Markup Language</p></li><li class="fragment"><p>Template Language</p></li><li class="fragment"><p>Modeling Language</p></li></ul></div></div></section>
 <section id="_toolchain"><h2>Toolchain</h2><div class="slide-content"><div class="ulist"><ul><li class="fragment"><p>Text Editor</p></li><li class="fragment"><p>Version Control System</p></li><li class="fragment"><p>Static Site Generator / Rendering Engine</p></li><li class="fragment"><p>Automation Pipeline</p></li></ul></div></div></section>
