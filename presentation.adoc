@@ -125,14 +125,14 @@ _The philosophy that documentation should be maintained using the same tools & a
 - Toolchain
 - Methodology
 
-== Language
+=== Language
 
 [%step]
 - Markup Language
 - Template Language
 - Modeling Language
 
-== Toolchain
+=== Toolchain
 
 [%step]
 - Text Editor
@@ -140,7 +140,7 @@ _The philosophy that documentation should be maintained using the same tools & a
 - Static Site Generator / Rendering Engine
 - Automation Pipeline
 
-== Methodology
+=== Methodology
 
 [%step]
 - Workflow
