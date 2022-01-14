@@ -47,6 +47,24 @@ image::https://mdpharmacourses.com/wp-content/uploads/2016/06/ISO-13485-2016-1.p
 Medical Devices - A Practical Guide - Requirements for Regulatory Purposes
 --
 
+== 21 CFR Part 820 subparts
+
+[%step]
+- Subpart B—Quality System Requirements
+- Subpart C—Design Controls
+- Subpart D—Document Controls
+- Subpart E—Purchasing Controls
+- Subpart F—Identification and Traceability
+- Subpart G—Production and Process Controls
+- Subpart H—Acceptance Activities
+- Subpart I—Nonconforming Product
+- Subpart J—Corrective and Preventive Action (CAPA)
+- Subpart K—Labeling and Packaging Control
+- Subpart L—Handling, Storage, Distribution, and Installation
+- Subpart M—Records
+- Subpart N—Servicing
+- Subpart O—Statistical Techniques
+
 == How-to build Open-Source Hardware (OSHW)
 
 OSHW Definition (source: OSHWA):
