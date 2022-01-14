@@ -163,3 +163,5 @@ that allows for the generation of
 - Design Documentation
 
 s.a., the Distributed OSHW Framework (DOF)
+
+== Let's go build open-source hardware!
