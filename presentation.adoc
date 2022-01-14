@@ -7,16 +7,20 @@ by Sean Marquez
 [%step]
 Circa March 2020 - Present
 
-Note:
+[.notes]
+--
 Case spikes throughout the COVID pandemic have caused shortages in medical supplychain
+--
 
 == Call to Action
 
 [%step]
 Form an engineering thinktank
 
-Note:
+[.notes]
+--
 To build open-source medical hardware!
+--
 
 == Roadblocks
 
@@ -24,8 +28,10 @@ To build open-source medical hardware!
 - Regulatory environment
 - How to build open-source hardware (OSHW)
 
-Note:
+[.notes]
+--
 Not to mention, working with distributed team members, over 4 time zones, across 2 countries
+--
 
 [.columns]
 == Regulatory Environment
@@ -72,10 +78,12 @@ _The philosophy that documentation should be maintained using the same tools & a
 - Reviewing documentation is like a code review
 - Documentation itself can be open-sourced, allowing anyone to contribute
 
-Note:
+[.notes]
+--
 - satisfies traceability requirements
 - GH code reviews for documentation satisfies Q/A
 - "Given enough eyeballs, all bugs are shallow" - Linus' Law
+--
 
 == How to adopt a Docs-as-Code approach
 
