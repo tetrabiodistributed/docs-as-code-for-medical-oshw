@@ -76,11 +76,17 @@ image::https://mdpharmacourses.com/wp-content/uploads/2016/06/ISO-13485-2016-1.p
 
 == How-to build Open-Source Hardware (OSHW)
 
-OSHW Definition (source: OSHWA):
+=== OSHW Definition
+
 [%step]
 - OSHW s/b like OSSW;
   license & design should allow for anyone to make, modify, and/or redistribute the hardware
+
+ (source: OSHWA)
+
 - Documentation & design tools themselves should be accessible and open-source
+
+ (source: OSHWA)
 
 == Realization
 
