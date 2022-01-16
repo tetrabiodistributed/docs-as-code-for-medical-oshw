@@ -5,22 +5,12 @@ by Sean Marquez
 == Context
 
 [%step]
-Circa March 2020 - Present
-
-[.notes]
---
-Case spikes throughout the COVID pandemic have caused shortages in medical supplychain
---
+Case spikes throughout the COVID-19 pandemic have caused shortages across the medical supplychain
 
 == Call to Action
 
 [%step]
-Form an engineering thinktank
-
-[.notes]
---
-To build open-source medical hardware!
---
+Build open-source medical hardware to supplement shortage!
 
 == Roadblocks
 
