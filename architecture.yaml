@@ -1,0 +1,47 @@
+elements:
+  0-References/1-UltimateGuideTo21CFRPart820FDAQualitySystemRegulationForMedicalDevices.yaml: &ref_0
+    title: >-
+      Ultimate Guide to 21 CFR Part 820 — FDA's Quality System Regulation (QSR)
+      for Medical Devices
+    url: https://www.greenlight.guru/blog/21-cfr-part-820
+  0-References/2-21CFRPart820FDAQMSForMedicalDevices.yaml: &ref_1
+    title: 21 CFR Part 820 — Quality System Regulation
+    url: https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820
+  0-References/3-ISO13485QualityManagementForMedicalDevices.yaml: &ref_2
+    title: ISO 18485 - Quality Management for Medical Devices
+    url: https://www.iso.org/iso-13485-medical-devices.html
+  1-StakeholderNeeds/1-QualitySystemProcessesForMedicalDeviceManufacturers.yaml: &ref_3
+    id: 1
+    title: Quality System Processes for Medical Device Manufacturers
+    statement: >-
+      Manufacturers of medical devices shall ensure that finished devices will
+      be safe and effective.
+    derivedFrom:
+      - 0-References/2-21CFRPart820FDAQMSForMedicalDevices.yaml
+      - 0-References/3-ISO13485QualityManagementForMedicalDevices.yaml
+package:
+  name: docs-as-code-for-medical-oshw
+  version: 1.0.0
+  description: Docs-as-Code for Open-Source Medical Hardware & PPE's
+  main: index.js
+  scripts:
+    test: 'echo "Error: no test specified" && exit 1'
+  repository: https://github.com/tetrabiodistributed/docs-as-code-for-medical-oshw.git
+  keywords:
+    - docs-as-code
+    - oshw
+    - medical
+    - ppe
+  author: Sean Marquez
+  license: CC-BY-4.0
+  bugs:
+    url: >-
+      https://github.com/tetrabiodistributed/docs-as-code-for-medical-oshw/issues
+  homepage: https://tetrabiodistributed.github.io/docs-as-code-for-medical-oshw
+generationDate: 1/25/2022
+0-References:
+  - *ref_0
+  - *ref_1
+  - *ref_2
+1-StakeholderNeeds:
+  - *ref_3
