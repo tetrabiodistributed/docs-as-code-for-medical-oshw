@@ -14,7 +14,7 @@ endif::[]
 
 == Stakeholder Needs
  
-The Docs-as-Code for Open-Source Medical Hardware & PPE's is guided by a series of stakeholder needs, listed below.
+The *Docs-as-Code for Open-Source Medical Hardware & PPE's* architecture is guided by a series of stakeholder needs, listed below.
 
 
 === 1: Quality System Processes for Medical Device Manufacturers
@@ -25,6 +25,6 @@ Manufacturers of medical devices shall ensure that finished devices will be safe
 
 
 == Data Structures
-This section covers each data structure type in the *Docs-as-Code for Open-Source Medical Hardware & PPE's*.
+This section covers each data structure type in the *Docs-as-Code for Open-Source Medical Hardware & PPE's* architecture.
 
 
