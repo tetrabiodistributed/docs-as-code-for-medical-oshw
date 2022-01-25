@@ -1,0 +1,5 @@
+id: 2.1.2
+name: Assumptions
+statement: "Factors considered to be true without empirical proof or demonstration."
+derivedFrom:
+- "1-StakeholderNeeds/2.1-ProjectScope.yaml"
