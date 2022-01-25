@@ -1,0 +1,5 @@
+id: 2.1
+name: Project Scope
+statement: "A way to set boundaries, goals, deadlines, assumptions, & constraints"
+derivedFrom:
+- "1-StakeholderNeeds/2-DesignAndDevelopmentPlanning.yaml"
