@@ -1,0 +1,24 @@
+name: Design & Development Plan
+purpose: "Each manufacturer shall establish and maintain plans that describe or reference the design and development activities and define responsibility for implementation. The plans shall identify and describe the interfaces with different groups or activities that provide, or result in, input to the design and development process. The plans shall be reviewed, updated, and approved as design and development evolves." 
+template: |
+  project_scope: {{project_scope}}
+  cost: {{cost}}
+  schedule: {{schedule}}
+elements:
+  - key: project_scope
+    type: dict
+    itemType: string
+    description: A way to set boundaries, goals, deadlines, assumptions, & constraints.
+    derivedFrom: []
+  - key: cost
+    type: string
+    itemType: ""
+    description: An amount of money needed to pay or compensate to buy or take a service or good.
+    derivedFrom: 
+  - key: schedule
+    type: string
+    itemType: ""
+    description: Establishes the criteria & activities for developing and monitoring a schedule.
+    derivedFrom: []
+derivedFrom:
+- "1-StakeholderNeeds/2-DesignAndDevelopmentPlanning.yaml"
