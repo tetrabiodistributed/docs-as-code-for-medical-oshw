@@ -1,5 +1,0 @@
-id: 2.1.3
-name: Constraints
-statement: "Anything that constrains the delivery process or final output of the project."
-derivedFrom:
-- "1-StakeholderNeeds/2.1-ProjectScope.yaml"

@@ -1,5 +1,0 @@
-id: 2.1.1
-name: Deliverables
-statement: "Tangible/intangible outputs that are submitted within the scope of a project."
-derivedFrom:
-- "1-StakeholderNeeds/2.1-ProjectScope.yaml"
