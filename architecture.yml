@@ -12,7 +12,7 @@ elements:
     url: https://www.iso.org/iso-13485-medical-devices.html
   1-StakeholderNeeds/1-QualitySystemProcessesForMedicalDeviceManufacturers.yaml: &ref_3
     id: 1
-    title: Quality System Processes for Medical Device Manufacturers
+    name: Quality System Processes for Medical Device Manufacturers
     statement: >-
       Manufacturers of medical devices shall ensure that finished devices will
       be safe and effective.
