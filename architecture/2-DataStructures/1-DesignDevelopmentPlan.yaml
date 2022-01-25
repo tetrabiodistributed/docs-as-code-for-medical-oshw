@@ -1,5 +1,5 @@
 name: Design & Development Plan
-purpose: "Each manufacturer shall establish and maintain plans that describe or reference the design and development activities and define responsibility for implementation. The plans shall identify and describe the interfaces with different groups or activities that provide, or result in, input to the design and development process. The plans shall be reviewed, updated, and approved as design and development evolves." 
+purpose: "Data structure for a Design & Development Plan (DDP) document" 
 template: |
   project_scope: {{project_scope}}
   cost: {{cost}}
