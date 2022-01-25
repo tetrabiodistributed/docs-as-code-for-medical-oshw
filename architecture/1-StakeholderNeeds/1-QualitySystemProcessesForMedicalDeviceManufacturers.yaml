@@ -1,5 +1,5 @@
 id: 1
-title: "Quality System Processes for Medical Device Manufacturers"
+name: "Quality System Processes for Medical Device Manufacturers"
 statement: "Manufacturers of medical devices shall ensure that finished devices will be safe and effective."
 derivedFrom:
 - "0-References/2-21CFRPart820FDAQMSForMedicalDevices.yaml"
