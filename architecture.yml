@@ -8,7 +8,7 @@ elements:
     title: 21 CFR Part 820 — Quality System Regulation
     url: https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-820
   0-References/3-ISO13485QualityManagementForMedicalDevices.yaml: &ref_2
-    title: ISO 18485 - Quality Management for Medical Devices
+    title: ISO 13485 - Quality Management for Medical Devices
     url: https://www.iso.org/iso-13485-medical-devices.html
   1-StakeholderNeeds/1-QualitySystemProcessesForMedicalDeviceManufacturers.yaml: &ref_3
     id: 1
