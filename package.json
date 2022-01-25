@@ -1,15 +1,12 @@
 {
   "name": "docs-as-code-for-medical-oshw",
   "version": "1.0.0",
-  "description": "A presentation on docs-as-code for open-source medical hardware & PPE's",
+  "description": "Docs-as-Code for Open-Source Medical Hardware & PPE's",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tetrabiodistributed/docs-as-code-for-medical-oshw.git"
-  },
+  "repository": "https://github.com/tetrabiodistributed/docs-as-code-for-medical-oshw.git",
   "keywords": [
     "docs-as-code",
     "oshw",
@@ -21,5 +18,5 @@
   "bugs": {
     "url": "https://github.com/tetrabiodistributed/docs-as-code-for-medical-oshw/issues"
   },
-  "homepage": "https://github.com/tetrabiodistributed/docs-as-code-for-medical-oshw#readme"
+  "homepage": "https://tetrabiodistributed.github.io/docs-as-code-for-medical-oshw"
 }
