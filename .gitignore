@@ -1,5 +1,6 @@
 # build script generated directory
 dist/
+_build
 
 # github action keys
 gh-pages*
