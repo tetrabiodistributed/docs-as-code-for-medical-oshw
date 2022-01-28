@@ -1,5 +1,8 @@
 = Docs-as-Code for Open-Source Medical Hardware & PPE's
 
+// JRS - recommend including a reference to DaC early on (like https://www.writethedocs.org/guide/docs-as-code/) for the uninitiated
+// JRS - I think the slides could use more visuals (images, charts, tables, etc) to break up the text and provide evidence in support of your claims
+
 by Sean Marquez
 
 == Context
@@ -11,6 +14,9 @@ Case spikes throughout the COVID-19 pandemic have caused shortages across the me
 
 [%step]
 Build open-source medical hardware to supplement shortage!
+
+// JRS - suggest adding a sub-list here of why OSHW is the solution (the rest of the talk depends on the audience agreeing with this principle)
+// JRS - this can then lead naturally to the next slide ("If OSHW is so great, why aren't we all just doing this already?  What is blocking us?")
 
 == Roadblocks
 
@@ -44,6 +50,9 @@ image::https://mdpharmacourses.com/wp-content/uploads/2016/06/ISO-13485-2016-1.p
 
 === 21 CFR Part 820 subparts
 
+// JRS - nothing after subpart I renders on my machine
+// JRS - it is probably worth it to put extra emphasis on parts C, D, F, G, and M since they all touch docs in one way or another
+
 [%step]
 - Subpart B—Quality System Requirements
 - Subpart C—Design Controls
@@ -64,6 +73,8 @@ image::https://mdpharmacourses.com/wp-content/uploads/2016/06/ISO-13485-2016-1.p
 
 "Manufacturers of medical devices shall ensure that finished devices will be safe and effective."
 
+// JRS - recommend including an additonal phrase here about this takes developing and maintaining high quality documentation
+
 == How-to build Open-Source Hardware (OSHW)
 
 === OSHW Definition
@@ -80,6 +91,9 @@ image::https://mdpharmacourses.com/wp-content/uploads/2016/06/ISO-13485-2016-1.p
 
 == Realization
 
+// JRS - I don't think I would label this a realization, at least not without earlier slides covering the search for options (and coming up empty handed)
+// JRS - This is more of a refinement of Roadblock 2
+
 [%step]
 Tools for documenting open-source hardware are virtually non-existent
 
@@ -88,15 +102,21 @@ Tools for documenting open-source hardware are virtually non-existent
 [%step]
 _A community for technical writers & documentarians_
 
+// JRS - here is a good place for an image, screenshot of the Write the Docs website
+
 == Docs-as-Code
 
 [%step]
 _The philosophy that documentation should be maintained using the same tools & approach as code_
 
-== Advantages to Docs-as-Code
+// JRS - this is what I was referring to early on in the presentation; this quote should be much earlier so the audience understands what you are calling for from the beginning
+
+== Docs-as-Code Advantages
+
+// JRS - tightened title 
 
 [%step]
-- Works with distributed version control systems (s.a., git)
+- Works with distributed version control systems (s.a., git)  // JRS - did you mean e.g. here?
 - Allows for parallel development
 - Reviewing documentation is like a code review
 - Documentation itself can be open-sourced, allowing anyone to contribute
@@ -107,6 +127,8 @@ _The philosophy that documentation should be maintained using the same tools & a
 - GH code reviews for documentation satisfies Q/A
 - "Given enough eyeballs, all bugs are shallow" - Linus' Law
 --
+
+// JRS - love this slide
 
 == How to adopt a Docs-as-Code approach
 
@@ -132,6 +154,9 @@ _The philosophy that documentation should be maintained using the same tools & a
 
 === Methodology
 
+// JRS - Suggest including definition of a methodology here (see https://github.com/Mach30/dof#introduction)
+// JRS - Suggest emphasizing systematic approach, independent of tools, and that ensures the "source" in OSHW is shared in a compatible manner across teams/projects/components
+
 [%step]
 - Workflow
 - Contributing guidelines (s.a., style guide)
@@ -155,3 +180,5 @@ that allows for the generation of
 s.a., the Distributed OSHW Framework (DOF)
 
 == Let's go build open-source hardware!
+
+// JRS - I would add a tag line at the end like "Especially Medical Hardware & PPE's"
