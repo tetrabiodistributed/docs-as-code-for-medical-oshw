@@ -5,6 +5,7 @@ template: |
   project_cost: {{project_cost}}
   project_schedule: {{project_schedule}}
   out_of_scope: {{out_of_scope}}
+  definitions: {{definitions}}
 elements:
   - key: project_scope
     type: dict
@@ -25,6 +26,11 @@ elements:
     type: string
     itemType: ""
     description: Work over and beyond current scope of this project
+    derivedFrom: []
+  - key: definitions
+    type: dict
+    itemType: ""
+    description: Listing of acronyms and their compound term/phrase.  key = acronym.  value = term/phrase. (e.g., "TBD": "To Be Determined")
     derivedFrom: []
 derivedFrom:
 - "1-StakeholderNeeds/2-DesignAndDevelopmentPlanning.yaml"
