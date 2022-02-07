@@ -10,7 +10,7 @@ template: |
   organization_and_communication: {{organization_and_communication}}
 elements:
   - key: project_scope
-    type: dict
+    type: dictionary
     itemType: string
     description: A way to set boundaries, goals, deadlines, assumptions, & constraints.
     derivedFrom: []
@@ -30,7 +30,7 @@ elements:
     description: Work over and beyond current scope of this project
     derivedFrom: []
   - key: definitions
-    type: dict
+    type: dictionary
     itemType: ""
     description: Listing of acronyms and their compound term/phrase.  key = acronym.  value = term/phrase. (e.g., 'TBD'. 'To Be Determined')
     derivedFrom: []
