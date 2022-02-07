@@ -4,6 +4,7 @@ template: |
   project_scope: {{project_scope}}
   project_cost: {{project_cost}}
   project_schedule: {{project_schedule}}
+  out_of_scope: {{out_of_scope}}
 elements:
   - key: project_scope
     type: dict
@@ -19,6 +20,11 @@ elements:
     type: string
     itemType: ""
     description: Establishes the criteria & activities for developing and monitoring a schedule.
+    derivedFrom: []
+  - key: out_of_scope
+    type: string
+    itemType: ""
+    description: Work over and beyond current scope of this project
     derivedFrom: []
 derivedFrom:
 - "1-StakeholderNeeds/2-DesignAndDevelopmentPlanning.yaml"
