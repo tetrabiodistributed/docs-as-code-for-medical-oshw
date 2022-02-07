@@ -32,7 +32,7 @@ elements:
   - key: definitions
     type: dict
     itemType: ""
-    description: Listing of acronyms and their compound term/phrase.  key = acronym.  value = term/phrase. (e.g., "TBD": "To Be Determined")
+    description: Listing of acronyms and their compound term/phrase.  key = acronym.  value = term/phrase. (e.g., 'TBD'. 'To Be Determined')
     derivedFrom: []
   - key: reference_documents
     type: list
