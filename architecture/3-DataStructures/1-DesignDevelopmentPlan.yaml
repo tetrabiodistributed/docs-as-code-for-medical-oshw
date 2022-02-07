@@ -7,6 +7,7 @@ template: |
   out_of_scope: {{out_of_scope}}
   definitions: {{definitions}}
   reference_documents: {{reference_documents}}
+  organization_and_communication: {{organization_and_communication}}
 elements:
   - key: project_scope
     type: dict
@@ -37,6 +38,11 @@ elements:
     type: list
     itemType: string
     description: Listing of references
+    derivedFrom: []
+  - key: organization_and_communication
+    type: list
+    itemType: list
+    description: Defines a functional group that make up the project, their responsibilities, and how they communicate.
     derivedFrom: []
 derivedFrom:
 - "1-StakeholderNeeds/2-DesignAndDevelopmentPlanning.yaml"
