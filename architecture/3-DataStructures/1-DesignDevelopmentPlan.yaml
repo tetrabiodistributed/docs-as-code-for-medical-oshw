@@ -6,6 +6,7 @@ template: |
   project_schedule: {{project_schedule}}
   out_of_scope: {{out_of_scope}}
   definitions: {{definitions}}
+  reference_documents: {{reference_documents}}
 elements:
   - key: project_scope
     type: dict
@@ -31,6 +32,11 @@ elements:
     type: dict
     itemType: ""
     description: Listing of acronyms and their compound term/phrase.  key = acronym.  value = term/phrase. (e.g., "TBD": "To Be Determined")
+    derivedFrom: []
+  - key: reference_documents
+    type: list
+    itemType: string
+    description: Listing of references
     derivedFrom: []
 derivedFrom:
 - "1-StakeholderNeeds/2-DesignAndDevelopmentPlanning.yaml"
