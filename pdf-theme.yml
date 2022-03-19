@@ -27,7 +27,7 @@ header:
         *Docs-as-Code for Open-Source Medical Hardware & PPE's* +
     right:
       content: |
-        *v1.0.0*
+        *v0.1.0*
   verso:
     left:
       content: $header-recto-left-content

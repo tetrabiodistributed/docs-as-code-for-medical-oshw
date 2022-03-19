@@ -1,6 +1,6 @@
 = Docs-as-Code for Open-Source Medical Hardware & PPE's
 :doc-name: architecture.adoc
-:revnumber: v1.0.0
+:revnumber: v0.1.0
 :toc: left
 
 ifndef::backend-pdf[]

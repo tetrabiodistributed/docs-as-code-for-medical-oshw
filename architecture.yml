@@ -21,7 +21,7 @@ elements:
       - 0-References/3-ISO13485QualityManagementForMedicalDevices.yaml
 package:
   name: docs-as-code-for-medical-oshw
-  version: 1.0.0
+  version: 0.1.0
   description: Docs-as-Code for Open-Source Medical Hardware & PPE's
   main: index.js
   scripts:
@@ -38,7 +38,7 @@ package:
     url: >-
       https://github.com/tetrabiodistributed/docs-as-code-for-medical-oshw/issues
   homepage: https://tetrabiodistributed.github.io/docs-as-code-for-medical-oshw
-generationDate: 1/25/2022
+generationDate: 3/19/2022
 0-References:
   - *ref_0
   - *ref_1
