@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "9b69e8ab6bdcc32a",
+    "type": "split",
+    "children": [
+      {
+        "id": "87406bc8d871262f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Design & Development Plan.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "36b8c736388a3a32",
+    "type": "split",
+    "children": [
+      {
+        "id": "e01e64f4b3a8ec65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a5328607a151bd8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f3e91d18d1536729",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f4811a5aacf4fe4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "43c4f239a1bc97a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef055df48694d706",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Design & Development Plan.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "87406bc8d871262f",
+  "lastOpenFiles": [
+    "Design & Development Plan.md"
+  ]
+}
