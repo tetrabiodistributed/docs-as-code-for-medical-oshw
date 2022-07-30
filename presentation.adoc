@@ -210,11 +210,25 @@ _A community for technical writers & documentarians_
 https://www.writethedocs.org/
 --
 
+[.notes]
+--
+WTD is A community for technical writers & documentarians;
+You can join their online slack group;
+they also have a podcast (so if you're stuck in LA traffic and looking for a new podcast; there you go)
+--
+
 === Open Source Hardware Association
 
 --
 image::https://www.oshwa.org/wp-content/uploads/2012/09/OSHWA_Logo_2012B_1000.jpg[OSHWA, 500, 144]
 https://www.oshwa.org/
+--
+
+[.notes]
+--
+OSHWA is the organization that certifies OSHW projects;
+They also have a discord channel
+& (as of recently) an open-standards working group
 --
 
 === Mach30 Foundation
@@ -224,11 +238,24 @@ image::http://mach30.org/wp-content/themes/mach30/images/legacy_logo.png[Mach30,
 http://mach30.org/
 --
 
+[.notes]
+--
+Mach30 is a non-profit,
+originally chartered to develop Open Space Hardware;
+They specialized in model-based approaches to process and tooling development for OSHW
+--
+
 === Tetra Bio Distributed
 
 --
 image::https://raw.githubusercontent.com/tetrabiodistributed/tetrabiodistributed.github.io/dev/assets/logo/black/tetra_logo_black_with_white_background_340_x_101_px.png[Tetra, 340, 101]
 https://www.tetrabio.org/
+--
+
+[.notes]
+--
+Tetra is a non-profit,
+pioneering development of medical OSHW in collaboration with subject matter experts at USC
 --
 
 == Contribute
@@ -252,5 +279,14 @@ PAPRa (open-source hardware respirator)
 This presentation!
 
  https://github.com/tetrabiodistributed/docs-as-code-for-medical-oshw/
+
+[.notes]
+--
+oshw-standards project is led by the OSHWA working group to develop open standards s.a., for configuration management & quality management of OSHW for industries s.a., Medical & Aerospace
+DOF is a framework for distributed open-source hardware; think NodeJS/NPM's package management for distributed OSHW
+QMS-CLI is a tool being developed by Tetra for generating/managing documentation for quality management of medical OSHW
+PAPRa is kind of Tetra's flagship OSHW respirator project that is published using a docs-as-code approach
+This presentation is also published using a docs-as-code approach (so, if you'd like to contribute to improving this very presentation, open an issue!)
+--
 
 == Let's go build open-source hardware!
