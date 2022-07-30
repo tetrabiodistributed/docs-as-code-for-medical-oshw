@@ -192,11 +192,11 @@ Consider the following...
 
  s.a., style guide, code of conduct
 
-* Agile Development Practice
+- Agile Development Practice
 
  e.g., scrum, kanban
 
-* Code (Docs) Review Process
+- Code (Docs) Review Process
 
  Have someone review your docs (e.g., as a pull request on GitHub)
 
