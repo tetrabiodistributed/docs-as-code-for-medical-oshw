@@ -101,6 +101,7 @@ Using a distributed version control tool also allows for parallel development
 Reviewing documentation is like a code review
 Content can be open-sourced, allowing anyone to contribute
 Doctools can be leveraged to produce stakeholder-specific documentation
+a model-based approach to documentation can be leveraged to allow for machine-queryable documentation; which would enable stakeholder-specific views, s.a., documentation for regulatory audits
 --
 
 [.columns]
