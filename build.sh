@@ -1,19 +1,22 @@
 #!/usr/bin/env bash
 
+# Make dist/ directory, if none exists
+if [ ! -r ./dist ]; then
+    echo "Creating dist/ directory..."
+    mkdir dist/
+fi
+
 # Generate presentation.html
 echo "Generating presentation.html..."
-docker run --rm -v $PWD:/documents asciidoctor/docker-asciidoctor asciidoctor-revealjs -r asciidoctor-diagram -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0 -a revealjs_transition=slide -a revealjs_slideNumber=true -a revealjs_width=1100 -a revealjs_height=700 -D dist 'presentation.adoc' -o 'presentation.html'
+docker run --rm -v $PWD:/documents asciidoctor/docker-asciidoctor asciidoctor-revealjs -r asciidoctor-diagram -a revealjs_transition=slide -a revealjs_slideNumber=true -a revealjs_width=1100 -a revealjs_height=700 'presentation.adoc' -o 'presentation.html'
+
+mv -f presentation.html dist/presentation.html
+cp -r reveal.js/ dist/
 
 # Install m30pm/node_modules, if not already installed
 if [ ! -r ./m30pm/node_modules ]; then
     echo "Installing node_modules..."
     docker run --rm -v $PWD:/src -w /src node bash -c "cd m30pm && npm ci"
-fi
-
-# Make dist/ directory, if none exists
-if [ ! -r ./dist ]; then
-    echo "Creating dist/ directory..."
-    mkdir dist/
 fi
 
 # Build the unified model
