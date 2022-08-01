@@ -6,8 +6,8 @@
 ifndef::backend-pdf[]
 image:https://img.shields.io/badge/License-CC_BY_4.0-yellow.svg[Attribution 4.0 International (CC BY 4.0), link=https://creativecommons.org/licenses/by/4.0/]
 image:https://img.shields.io/badge/Contribute%20on-GitHub-orange[Contribute on GitHub, link=https://github.com/tetrabiodistributed/docs-as-code-for-medical-oshw.git]
-image:https://img.shields.io/badge/Download%20-PDF-blue[Download PDF, link=https://tetrabiodistributed.github.io/docs-as-code-for-medical-oshw/architecture.pdf]
-image:https://img.shields.io/badge/View%20-Presentation-green[Download PDF, link=https://tetrabiodistributed.github.io/docs-as-code-for-medical-oshw/presentation.html]
+image:https://img.shields.io/badge/Download%20-PDF-blue[Download PDF, link=architecture.pdf]
+image:https://img.shields.io/badge/View%20-Presentation-green[Download PDF, link=presentation.html]
 endif::[]
 
 <<<
