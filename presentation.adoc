@@ -1,30 +1,111 @@
-= Docs-as-Code for Open-Source Medical Hardware & PPE's
+= A Docs-as-Code approach to Medical/PPE Open-Source Hardware
 
 by Sean Marquez
 
-== Context
+[.notes]
+--
+So, this talk is on...
+--
 
-[%step]
-Case spikes throughout the COVID-19 pandemic have caused shortages across the medical supplychain
+== Special Thanks to
 
-== Call to Action
-
-[%step]
-Build open-source medical hardware to supplement shortage!
-
-== Roadblocks
-
-[%step]
-- Regulatory environment
-- How to build open-source hardware (OSHW)
+SCaLE volunteer team
 
 [.notes]
 --
-Not to mention, working with distributed team members, over 4 time zones, across 2 countries
+Before we get started, I'd like to commend SCaLE volunteer team for making conferences s.a., this possible
+--
+
+== Outline
+
+- Terms/Definitions
+
+ What is a Medical Device or PPE as Open-Souce Hardware (OSHW)?
+ What is a Docs-as-code approach?
+
+- Stakeholder Needs
+
+ Why develop Medical Devices/PPE's as OSHW (using a Docs-as-Code approach)?
+
+- Methodology
+
+ How to adopt a docs-as-code approach to Medical/PPE OSHW
+
+- Community Resources & Where to Contribute
+
+[.notes]
+--
+what
+who
+why
+how
+where
+--
+
+== What is Open Source Medical/PPE Hardware?
+
+[%step]
+- Medical Devices or Personal Protective Equipment (PPE's) developed as Open Source Hardware (OSHW)
+
+=== What is Open Source Hardware?
+
+[%step]
+- OSHW is hardware developed/published like Open Source Software (OSS)
+
+ (source: OSHWA definition for OSHW)
+
+- License (s.a, CERN Open Hardware License) allows for modificatoin/redistribution of hardware design 
+
+ (source: OSHWA definition for OSHW)
+
+- Documentation & design tools themselves should be open-source
+
+ (source: OSI definition for OSS)
+
+== What is Docs-as-Code?
+
+[%step]
+_The philosophy/practice that documentation should be maintained using the same tools & approach as code_
+
+== Why develop Medical Devices/PPE's as OSHW (using a Docs-as-Code approach)?
+
+[%step]
+- Distributed manufacturing
+ useful when faced by supplychain vulnerabilities, s.a., in the event of a global pandemic
+- Quality product
+ By leveraging talent of the open-source hardware developer community
+
+[.notes]
+--
+Distributed manufacturing - useful when faced by supplychain vulnerabilities, s.a., in the event of a global pandemic
+Open source can yield a better product by virtue of subjecting it to more eyes;
+"Given enough eyeballs, all bugs are shallow" - Linus' Law
+--
+
+== Why use a Docs-as-Code approach?
+
+[%step]
+- Works with modern version control systems (s.a., git)
+- Allows for parallel development
+- Reviewing documentation is like a code review
+- Content can be open-sourced, allowing anyone to contribute
+- Doctools can be leveraged to produce stakeholder-specific documentation
+
+ s.a., for quality management, /auditability
+
+[.notes]
+--
+Works with modern version control systems (s.a., git)
+Using a distributed version control tool means docs & design files can be released together, as to not go out ouf sync
+Using a distributed version control tool also allows for parallel development
+Reviewing documentation is like a code review
+Content can be open-sourced, allowing anyone to contribute
+Doctools can be leveraged to produce stakeholder-specific documentation
+a model-based approach to documentation can be leveraged to allow for machine-queryable documentation; which would enable stakeholder-specific views, s.a., documentation for regulatory audits
 --
 
 [.columns]
-== Regulatory Environment
+=== Regulatory Environment
 
 [.column]
 --
@@ -42,70 +123,11 @@ image::https://mdpharmacourses.com/wp-content/uploads/2016/06/ISO-13485-2016-1.p
  Requirements for Regulatory Purposes
 --
 
-=== 21 CFR Part 820 subparts
-
-[%step]
-- Subpart B—Quality System Requirements
-- Subpart C—Design Controls
-- Subpart D—Document Controls
-- Subpart E—Purchasing Controls
-- Subpart F—Identification and Traceability
-- Subpart G—Production and Process Controls
-- Subpart H—Acceptance Activities
-- Subpart I—Nonconforming Product
-- Subpart J—Corrective and Preventive Action (CAPA)
-- Subpart K—Labeling and Packaging Control
-- Subpart L—Handling, Storage, Distribution, and Installation
-- Subpart M—Records
-- Subpart N—Servicing
-- Subpart O—Statistical Techniques
-
-=== TL;DR
-
-"Manufacturers of medical devices shall ensure that finished devices will be safe and effective."
-
-== How-to build Open-Source Hardware (OSHW)
-
-=== OSHW Definition
-
-[%step]
-- OSHW s/b like OSSW;
-  license & design should allow for anyone to make, modify, and/or redistribute the hardware
-
- (source: OSHWA)
-
-- Documentation & design tools themselves should be accessible and open-source
-
- (source: OSHWA)
-
-== Realization
-
-[%step]
-Tools for documenting open-source hardware are virtually non-existent
-
-== Meet _Write The Docs_
-
-[%step]
-_A community for technical writers & documentarians_
-
-== Docs-as-Code
-
-[%step]
-_The philosophy that documentation should be maintained using the same tools & approach as code_
-
-== Advantages to Docs-as-Code
-
-[%step]
-- Works with distributed version control systems (s.a., git)
-- Allows for parallel development
-- Reviewing documentation is like a code review
-- Documentation itself can be open-sourced, allowing anyone to contribute
-
 [.notes]
 --
-- satisfies traceability requirements
-- GH code reviews for documentation satisfies Q/A
-- "Given enough eyeballs, all bugs are shallow" - Linus' Law
+Regulatory bodies s.a., the FDA requires documented processes demonstrating manufactured medical devices are safe & effective
+as well as traceable audit trail of the design processes
+- which can be satisfied, using a docs-as-code approach, via doctools, linters, distributed version control system, & code review practices used in software development
 --
 
 == How to adopt a Docs-as-Code approach
@@ -117,41 +139,154 @@ _The philosophy that documentation should be maintained using the same tools & a
 
 === Language
 
+Consider the following...
+
 [%step]
 - Markup Language
+
+ s.a., Markdown, RestructuredText, LaTeX, Asciidoc
+
 - Template Language
+
+ s.a., Liquid, Jinja2, Handlebars
+
 - Modeling Language
+
+ s.a., OML, SysML v2
 
 === Toolchain
 
 [%step]
-- Text Editor
+- Text Editor / IDE
+
+ s.a., vim, nano, VS code
+
 - Version Control System
+
+ s.a., git, svn, mercurial
+
 - Static Site Generator / Rendering Engine
+
+ s.a., Sphinx, Asciidoctor, Hugo
+
+- Issue Tracker
+
+ s.a., Jira, GitHub, GitLab
+
+- Publishing Platform
+
+ s.a., GitHub Pages, ReadTheDocs, Netlify
+
 - Automation Pipeline
+
+ s.a., GitHub Actions, Jenkins
 
 === Methodology
 
 [%step]
 - Workflow
-- Contributing guidelines (s.a., style guide)
-- Documentation review process
 
-== Examples
+ s.a., Docs-Driven-Development: Write your docs first, then implement what you documented
 
-<PAPRa docs screenshot>
+- Contributing guidelines
 
-== In-Development
+ s.a., style guide, code of conduct
 
-Adopting a framework for OSHW,
-untethered from vendor lock-in or content management systems (CMS),
-that allows for the generation of
+- Agile Development Practice
 
-- Bill of Materials (BOM)
-- Purchase Orders (PO)
-- Assembly instructions
-- Design Documentation
+ e.g., scrum, kanban
 
-s.a., the Distributed OSHW Framework (DOF)
+- Code (Docs) Review Process
+
+ Have someone review your docs (e.g., as a pull request on GitHub)
+
+== Community Resources
+
+=== Write The Docs
+
+--
+image::https://www.writethedocs.org/_static/sticker-wtd-colors.png[WTD, 200, 200]
+_A community for technical writers & documentarians_
+https://www.writethedocs.org/
+--
+
+[.notes]
+--
+WTD is A community for technical writers & documentarians;
+You can join their online slack group;
+they also have a podcast (so if you're stuck in LA traffic and looking for a new podcast; there you go)
+--
+
+=== Open Source Hardware Association
+
+--
+image::https://www.oshwa.org/wp-content/uploads/2012/09/OSHWA_Logo_2012B_1000.jpg[OSHWA, 500, 144]
+https://www.oshwa.org/
+--
+
+[.notes]
+--
+OSHWA is the organization that certifies OSHW projects;
+They also have a discord channel
+& (as of recently) an open-standards working group
+--
+
+=== Mach30 Foundation
+
+--
+image::http://mach30.org/wp-content/themes/mach30/images/legacy_logo.png[Mach30, 411, 116]
+http://mach30.org/
+--
+
+[.notes]
+--
+Mach30 is a non-profit,
+originally chartered to develop Open Space Hardware;
+They specialized in model-based approaches to process and tooling development for OSHW
+--
+
+=== Tetra Bio Distributed
+
+--
+image::https://raw.githubusercontent.com/tetrabiodistributed/tetrabiodistributed.github.io/dev/assets/logo/black/tetra_logo_black_with_white_background_340_x_101_px.png[Tetra, 340, 101]
+https://www.tetrabio.org/
+--
+
+[.notes]
+--
+Tetra is a non-profit,
+pioneering development of medical OSHW in collaboration with subject matter experts at USC
+--
+
+== Contribute
+
+Open Standards for OSHW
+
+ https://github.com/oshwa/oshw-standards
+
+Distributed Open-Source Hardware Frameworks 
+
+ https://github.com/Mach30/dof/
+
+Tooling
+
+ https://github.com/tetrabiodistributed/qms-cli
+
+PAPRa (open-source hardware respirator)
+
+ https://github.com/tetrabiodistributed/papra
+
+This presentation!
+
+ https://github.com/tetrabiodistributed/docs-as-code-for-medical-oshw/
+
+[.notes]
+--
+oshw-standards project is led by the OSHWA working group to develop open standards s.a., for configuration management & quality management of OSHW for industries s.a., Medical & Aerospace
+DOF is a framework for distributed open-source hardware; think NodeJS/NPM's package management for distributed OSHW
+QMS-CLI is a tool being developed by Tetra for generating/managing documentation for quality management of medical OSHW
+PAPRa is kind of Tetra's flagship OSHW respirator project that is published using a docs-as-code approach
+This presentation is also published using a docs-as-code approach (so, if you'd like to contribute to improving this very presentation, open an issue!)
+--
 
 == Let's go build open-source hardware!
